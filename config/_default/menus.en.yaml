@@ -1,21 +1,8 @@
 main:
-  - name: Support
-    identifier: support
-    weight: 100
-    url: https://github.com/hbstack
+  - name: Home
     params:
-      header: The HB support community.
       icon:
-        vendor: font-awesome-solid
-        name: headset
-
-  - name: Documentation
-    parent: support
-    url: https://hbstack.dev/
+        name: house
+        vendor: bootstrap
+    url: /
     weight: 1
-    params:
-      icon:
-        vendor: bs
-        name: book
-        className: text-primary
-      description: The HB Stack documentation.

@@ -1,20 +1,22 @@
-description: The starter theme template of HB (Hugo Bootstrap) Framework.
+description: The amateur radio station operator KQ4AFY website
 
 hb:
   # js_bundle_name: main # the JS bundle name.
   # css_bundle_name: main # the CSS bundle name.
   header:
-    brand: HB # the brand name, leave it empty to use site's title.
-    logo_bg: '#712cf9' # logo background color, used by logo with transparent background.
+    brand: KQ4AFY # the brand name, leave it empty to use site's title.
+    # logo_bg: '#712cf9' # logo background color, used by logo with transparent background.
     # see https://hbstack.dev/en/docs/modules/socials/.
     socials:
-      github: hbstack
-      twitter: razonyang
+      github: jbouse
+      paypal: KQ4AFY
+      tiktok: butonlyone.life
   footer:
     # see https://hbstack.dev/en/docs/modules/socials/.
     socials:
-      github: hbstack
-      twitter: razonyang
+      github: jbouse
+      paypal: KQ4AFY
+      tiktok: butonlyone.life
   blog:
     paginate: 12 # paginate.
     # post_thumbnail: false # whether to show the thumbnails.
@@ -25,15 +27,9 @@ hb:
         - docs
         - blog
         - tutorials
-    giscus:
-      repo: hbstack/theme
-      repo_id: R_kgDOJP3qtA
-      category_id: DIC_kwDOJP3qtM4CVavM
+    disqusShortname: kq4afy
   docs:
-    giscus:
-      repo: hbstack/theme
-      repo_id: R_kgDOJP3qtA
-      category_id: DIC_kwDOJP3qtM4CVavM
+    disqusShortname: kq4afy
   content_panel:
     repo:
       service: github # github or gitlab.
@@ -46,6 +42,13 @@ hb:
 seo:
   favicons: # see https://hugomods.com/en/docs/seo/#favicons-module
     icon: images/logo.png # use logo as favicon.
+    sizes:
+    - size: 16x16
+    - size: 32x32
+    - size: 150x150
+    - rel: apple-touch-icon
+      size: 180x180
+    - size: 192x192
 
 # PWA settings, see https://hugomods.com/en/docs/pwa/#site-parameters.
 pwa:
@@ -61,6 +64,10 @@ search:
   min_match_char_length: 2
   case_sensitive: false
   shortcut_search: ["/"]
+
+gravatar:
+  default: wavatar
+  rating: pg
 
 mermaid:
   # replace it with other CDNs or self-hosted URLs.
