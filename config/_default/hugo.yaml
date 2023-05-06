@@ -23,7 +23,7 @@ module:
     - path: github.com/hbstack/gallery/modules/breadcrumb
 
     # syntax highlighting, see https://hbstack.dev/en/docs/modules/syntax-highlighting/.
-    # - path: github.com/hbstack/syntax-highlighting/styles/github-dark
+    - path: github.com/hbstack/syntax-highlighting/styles/github-dark
   
     # icons modules
     - path: github.com/hugomods/icons/vendors/font-awesome
