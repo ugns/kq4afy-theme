@@ -11,7 +11,7 @@
       "matchManagers": ["gomod"],
       "matchDepTypes": ["indirect"],
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
-      "automerge": true
+      "automerge": true,
       "enabled": true
     }
   ]
