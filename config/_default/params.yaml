@@ -11,14 +11,34 @@ hb:
       github: jbouse
       paypal: KQ4AFY
       tiktok: butonlyone.life
+      rss: true
   footer:
     # see https://hbstack.dev/en/docs/modules/socials/.
     socials:
+      _color: true
       github: jbouse
       paypal: KQ4AFY
       tiktok: butonlyone.life
+      rss: true
   blog:
+    # sidebar:
+    #   profile:
+    #     # title: Profile title other than site title.
+    #     # description: Profile description other than site description.
+    #     company: COMPANY
+    #     location: Earth
+    #     socials:
+    #       github: hbstack
+    #       mastodon: https://techhub.social/@hbstack
+    #       rss: true
+    #   posts:
+    #     recent_count: 5 # the number of recent posts.
+    #     featured_count: 5 # the number of featured posts.
+    #   taxonomies:
+    #     count: true # whether to show the number of posts associated to the item.
+    #     limit: 10 # the maximum number of the item.
     paginate: 12 # paginate.
+    post_thumbnail_placeholder: KQ4AFY
     # post_thumbnail: false # whether to show the thumbnails.
     # post_date_format: ":date_long" # see https://gohugo.io/functions/dateformat/#datetime-formatting-layouts.
     home: # homepage settings.
@@ -83,3 +103,16 @@ hugopress:
         # see layouts/partials/hugopress/modules/hb-custom/hooks/body-end.html.
         body-end:
           cacheable: true
+        # see layouts/partials/hugopress/modules/hb-custom/hooks/hb-blog-sidebar.html.
+        hb-blog-sidebar:
+          cacheable: true
+          weight: 1
+    # change the order of sidebar modules.
+    hb-blog-sidebar-taxonomies:
+      hooks:
+        hb-blog-sidebar:
+          weight: 3
+    hb-blog-sidebar-posts:
+      hooks:
+        hb-blog-sidebar:
+          weight: 2
