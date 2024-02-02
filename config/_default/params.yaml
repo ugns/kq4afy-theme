@@ -33,7 +33,7 @@ hb:
   content_panel:
     repo:
       service: github # github or gitlab.
-      repo: hbstack/theme
+      repo: ugns/kq4afy-theme
       branch: main
       # subpath: exampleSite
   # gallery:
