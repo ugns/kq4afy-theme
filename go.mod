@@ -1,6 +1,6 @@
 module github.com/ugns/kq4afy-theme
 
-go 1.19
+go 1.21
 
 require (
 	github.com/GoogleChrome/workbox v7.0.0+incompatible // indirect
