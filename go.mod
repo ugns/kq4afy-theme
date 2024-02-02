@@ -4,6 +4,7 @@ go 1.19
 
 require (
 	github.com/GoogleChrome/workbox v7.0.0+incompatible // indirect
+	github.com/KaTeX/KaTeX v0.16.9 // indirect
 	github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20200 // indirect
 	github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000 // indirect
 	github.com/hbstack/back-to-top v0.2.0 // indirect
@@ -33,6 +34,7 @@ require (
 	github.com/hbstack/docs/modules/featured-image v0.2.8 // indirect
 	github.com/hbstack/docs/modules/heading-sign v0.1.9 // indirect
 	github.com/hbstack/docs/modules/toc-scrollspy v0.1.7 // indirect
+	github.com/hbstack/featured-image v0.1.2 // indirect
 	github.com/hbstack/footer v0.2.10 // indirect
 	github.com/hbstack/footer/modules/socials v0.2.5 // indirect
 	github.com/hbstack/gallery v0.11.0 // indirect
@@ -47,6 +49,7 @@ require (
 	github.com/hbstack/mermaid v0.2.1 // indirect
 	github.com/hbstack/meta/recommended v0.2.10 // indirect
 	github.com/hbstack/noscript v0.5.0 // indirect
+	github.com/hbstack/pagination v0.6.0 // indirect
 	github.com/hbstack/progress-bar v0.1.0 // indirect
 	github.com/hbstack/pwa v0.1.2 // indirect
 	github.com/hbstack/scrollbar v0.1.0 // indirect

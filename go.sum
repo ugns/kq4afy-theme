@@ -1,5 +1,7 @@
 github.com/GoogleChrome/workbox v7.0.0+incompatible h1:/bqYzSkS1O9leTJ8kT0v9d61ANMJKt+GemdhmcaSB9c=
 github.com/GoogleChrome/workbox v7.0.0+incompatible/go.mod h1:dyEoGLpJeO43pUVJb+nNNr1WRgoF81hNEl4UGLV+yow=
+github.com/KaTeX/KaTeX v0.16.9 h1:4VYWM2nMSCfOPi63mTRJYQs0UmZPGTx3noiQ/vJu9Rk=
+github.com/KaTeX/KaTeX v0.16.9/go.mod h1:VI+aE+CVs/VqtbHnuhstfQST46GmrwpXH7LQAzYIouw=
 github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20200 h1:SmpwwN3DNzJWbV+IT8gaFu07ENUFpCvKou5BHYUKuVs=
 github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20200/go.mod h1:kx8MBj9T7SFR8ZClWvKZPmmUxBaltkoXvnWlZZcSnYA=
 github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000 h1:GZxx4Hc+yb0/t3/rau1j8XlAxLE4CyXns2fqQbyqWfs=
@@ -58,6 +60,8 @@ github.com/hbstack/docs/modules/heading-sign v0.1.9 h1:gwqg3R5YGwqCHFXrnV1ligZ2w
 github.com/hbstack/docs/modules/heading-sign v0.1.9/go.mod h1:64D1dr+tmjfQh0F1PtYa+cs9PiZttR6LCoXaiBXD4bI=
 github.com/hbstack/docs/modules/toc-scrollspy v0.1.7 h1:uBSdzKiDVYjqMxCr7UIC25J+YcC26q64bxmE2tWU0eI=
 github.com/hbstack/docs/modules/toc-scrollspy v0.1.7/go.mod h1:gRkFkDSPj8+j0rqIXbo1SQiD0UC7ZlDbbW+6FmilX0g=
+github.com/hbstack/featured-image v0.1.2 h1:Bc/deRi++p4rmoM8SWwgVR8sLpaythdceZYqPM5RGYQ=
+github.com/hbstack/featured-image v0.1.2/go.mod h1:zVzCNnwRWcxv9mdrUooPigdIGBFqD1RUPUcGxrKiTVM=
 github.com/hbstack/footer v0.2.10 h1:1w8fUXLajGSvEsu7UeWgnrDZumTqnC3pfl4vmmi+feU=
 github.com/hbstack/footer v0.2.10/go.mod h1:z779/sE1prEcABuz4RjhSwA8QkFLkmf+xv/5yM3BtPc=
 github.com/hbstack/footer/modules/socials v0.2.5 h1:VmIBdRc8+ujwOjurcltNW0yU7rX2CzectEtmhgy9I6Y=
@@ -86,6 +90,8 @@ github.com/hbstack/meta/recommended v0.2.10 h1:RzRe2LT/lJxlsfGv5UzYC3onl7lp1VWbC
 github.com/hbstack/meta/recommended v0.2.10/go.mod h1:OdGN+zqdgFbet5A6XrfjaTNUTd5L91rOUNRJxgq38fo=
 github.com/hbstack/noscript v0.5.0 h1:pyuTLNlx+g2UjlGgQ+cafEu0onLuFA7m9FlgBTQpRV0=
 github.com/hbstack/noscript v0.5.0/go.mod h1:BvSmPt+YXX3boc6pIncpIi+hEAYDiCw18eldLBBWHJc=
+github.com/hbstack/pagination v0.6.0 h1:sUirQEsW9ZmRU0GxlsE2pN7ZYghI4aqJYgfWAgd+iys=
+github.com/hbstack/pagination v0.6.0/go.mod h1:xAvZzN0UZW0j/IAUipcRIIQ7P9Sq44M3k47HaHy7OuU=
 github.com/hbstack/progress-bar v0.1.0 h1:2ZiGS3RFZbZYBUbT2nFCoU9SJsbD9jtV4A7ab41B4jg=
 github.com/hbstack/progress-bar v0.1.0/go.mod h1:JZt160XK62FxThzt+RmokjOww3De8ZL0ITcxMJLVE7g=
 github.com/hbstack/pwa v0.1.2 h1:zJhLf5Uf+jO9aCBKvFcASlw7sULK2i0qUJZxscBo0HM=
